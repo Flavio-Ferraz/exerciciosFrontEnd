@@ -1,0 +1,22 @@
+@use 'variaveis';
+
+
+
+body {
+    background-color: variaveis.$corPrincipal;
+    h1{
+        text-align: center;
+        align-items: center;
+        color:black;
+    }
+}
+
+section {
+    margin-top: 24px;
+    column-count: 3;
+
+    img{
+        max-width: 100%;
+    }
+}
+
